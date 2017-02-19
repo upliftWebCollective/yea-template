@@ -295,6 +295,8 @@ a.main_link{
 /*		About section 		*/
 
 .about{
+  /* CHANGE ABOUT COLOR */
+  background-color: #fff;
 	padding: 100px 0;
 }
 /* CHANGE About Image */
