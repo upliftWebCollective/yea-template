@@ -639,8 +639,10 @@ a.main_link{
 /*		Footer 		*/
 
 footer{
-	padding: 100px 0;
+	padding: 50px 0;
 	text-align: center;
+  /*CHANGE FOOTER BACKGROUND COLOR*/
+  background-color: #eaeaea;
 }
 
 footer .app_platform li{
