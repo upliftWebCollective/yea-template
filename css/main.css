@@ -1,14 +1,9 @@
 /*
-
-
     Template Name   : Capture
     Template Author : pixelhint.com
     Author Email    : contact@pixelhint.com
     License         : pixelhint.com/license
-
-
     *****************************************
-
 
     - Header
     - Hero section
@@ -19,15 +14,7 @@
     - Subscription section
     - Footer
     - Responsive CSS
-
-
 */
-
-
-
-
-
-
 
 /*		Fonts		*/
 @font-face {
@@ -92,15 +79,6 @@ a:focus{
 	max-width: 1130px;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Header 		*/
 
 header{
@@ -109,6 +87,7 @@ header{
 	width: 100%;
 	height: 130px;
 	z-index: 99;
+  /* CHANGE HEADER COLOR */
 	background-color: #47ad76;
 }
 
@@ -255,46 +234,10 @@ a.app_store_btn{
 	font-size: 16px;
 }
 
-.play_icon,
-.android_icon,
-.iphone_icon{
-	display: inline-block;
-	width: 16px;
-	height: 16px;
-	vertical-align: middle;
-	margin-right: 20px;
-	margin-bottom: 3px;
-}
-
-.play_icon{
-	background: url('../img/play.png') no-repeat;
-}
-
-.iphone_icon{
-	background: url('../img/iphone_app.png') no-repeat;
-}
-
-.android_icon{
-	background: url('../img/android_app.png') no-repeat;
-}
-
-
 a.app_store_btn:hover,
 a.app_store_btn:focus{
 	border-color: #41c27d;
 	color: #41c27d!important;
-}
-
-a.app_store_btn:hover .play_icon{
-	background: url('../img/play_hover.png') no-repeat;
-}
-
-a.app_store_btn:hover .iphone_icon{
-	background: url('../img/iphone_app_hover.png') no-repeat;
-}
-
-a.app_store_btn:hover .android_icon{
-	background: url('../img/android_app_hover.png') no-repeat;
 }
 
 a.app_link{
@@ -312,10 +255,7 @@ a.app_link:focus{
 }
 
 a.app_store_btn,
-.play_icon,
-.iphone_icon,
-.android_icon,
-a.app_link{
+a.main_link{
 	transition: all .2s linear;
 	-o-transition: all .2s linear;
 	-moz-transition: all .2s linear;
@@ -351,60 +291,20 @@ a.app_link{
     z-index: 9999;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*		Featured on section 		*/
-
-.featured_on{
-	width: 100%;
-	padding: 25px 0;
-	background: #f3f3f3;
-}
-
-.featured_on ul{
-	margin: 0;
-}
-
-.featured_on li{
-	position: relative;
-	height: 100%;
-}
-
-.featured_on li:first-child{
-	margin-left: 0;
-}
-
-
-
-
-
-
-
-
-
-
 /*		About section 		*/
 
 .about{
 	padding: 100px 0;
 }
-
-.about .iphone{
+/* CHANGE About Image */
+.about .aboutImage{
 	max-width: 339px;
 	position: relative;
 	display: inline-block;
 	text-align: center;
 }
 
-.about .iphone img{
+.about .aboutImage img{
 	width: 100%;
 	height: auto;
 }
