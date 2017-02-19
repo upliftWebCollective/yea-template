@@ -530,35 +530,24 @@ a.main_link{
 	background-position: -33px 0;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Subscription section 		*/
 
-.sub_box{
+.product-cta{
+  /*CHANGE CONTACT/CTA SECTION*/
+  background-color: #FFF;
 	width: 100%;
 	padding: 100px 0;
 	text-align: center;
-	background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -webkit-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
 }
 
-.sub_box .cta_text{
+.product-cta .cta_text{
 	color: #fff;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	margin-bottom: 50px;
 }
 
-.sub_box #mc-email{
+.product-cta #mc-email{
 	display: inline-block;
 	width: 300px;
 	height: 50px;
@@ -585,7 +574,7 @@ a.main_link{
 
 }
 
-.sub_box #mc_submit{
+.product-cta #mc_submit{
 	display: inline-block;
 	width: 60px;
 	height: 50px;
@@ -608,7 +597,7 @@ a.main_link{
 	vertical-align: middle;
 }
 
-.sub_box #mc_submit i{
+.product-cta #mc_submit i{
 	display: inline-block;
 	width: 20px;
 	height: 14px;
@@ -623,7 +612,7 @@ a.main_link{
 	background: url('../img/loading.gif') no-repeat;
 }
 
-.sub_box .message{
+.product-cta .message{
 	display: block;
 	text-align: center;
 	color: #fff;
@@ -633,8 +622,8 @@ a.main_link{
 	margin-top: 20px;
 }
 
-.sub_box #error_msg,
-.sub_box #success_msg{
+.product-cta #error_msg,
+.product-cta #success_msg{
 	display: none;
 }
 
@@ -807,15 +796,15 @@ footer .copyright a{
 
 
 	/*		Subscription section 		*/
-	.sub_box #mc-email,
-	.sub_box #mc_submit{
+	.product-cta #mc-email,
+	.product-cta #mc_submit{
 		display: block;
 		width: 90%;
 		margin: 0 auto;
 		text-align: center;
 	}
 
-	.sub_box #mc_submit{
+	.product-cta #mc_submit{
 		margin-top: 20px;
 	}
 }
