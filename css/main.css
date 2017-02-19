@@ -391,17 +391,14 @@ a.main_link{
 
 /*		App features 		*/
 
-.app_features{
+.features{
 	width: 100%;
 	padding: 100px 0 20px 0;
+  /* CHANGE FEATURE COLOR */
 	background-color: #41c17d;
-	background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -webkit-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
 }
 
-.app_features h1{
+.features h1{
 	color: #fff;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 20px;
@@ -409,7 +406,7 @@ a.main_link{
 	word-break: break-word;
 }
 
-.app_features p{
+.features p{
 	color: #e0f7eb;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -417,11 +414,11 @@ a.main_link{
 	line-height: 28px;
 }
 
-.app_features .details{
+.features .details{
 	margin-bottom: 80px;
 }
 
-.app_features .details:nth-child(3n+1){
+.features .details:nth-child(3n+1){
 	clear: both;
 }
 
